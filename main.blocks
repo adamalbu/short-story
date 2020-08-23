@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="!)93)m4X)XCECkv`Q/~?">mySprite</variable><variable type="KIND_SpriteKind" id=":!~vTA=/%,6$2BSFLQcu">Player</variable><variable type="KIND_SpriteKind" id="WsxxCBNnr+4HC[euDB:J">Projectile</variable><variable type="KIND_SpriteKind" id="Dw08ziX!_Jvh;H`@4/j5">Food</variable><variable type="KIND_SpriteKind" id="LKuGRpwTw#JtBh#FPiSX">Enemy</variable></variables><block type="pxt-on-start" id="Z)0=s+X[0Vrr_PNYHHfn" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="[O6NvLlaplJ9k:Pde{_A"><field name="VAR" id="!)93)m4X)XCECkv`Q/~?">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="[ZKo|D?H/pz-D!csvFTy"><value name="img"><shadow type="screen_image_picker" id="fN2sBH:4Fg$}25f?D+s."><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="X!BMs?*seDo=_GyJ3h%!"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="controls_if" id="`$(9mZwa:YjE:GHE$~qB"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="ZH*ci~!u+H]F-ep.zk[8"><field name="OP">EQ</field><value name="A"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="gameaskforstring" id="fDE|0*{2Ur]cC(M3LdAS"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="1" _input_init="true"></mutation><value name="message"><shadow type="text" id="bxav6]w2IvlL/c^Z896C"><field name="TEXT">You are in a lounge. There is a couch and a TV. Options: Go, Search</field></shadow></value><value name="answerLength"><shadow type="math_number_minmax" id="9[K`L;.{0b%o{BXqEZY|"><mutation min="1" max="24" label="AnswerLength" precision="0"/><field name="SLIDER">5</field></shadow></value></block></value><value name="B"><shadow type="math_number" disabled="true"><field name="NUM">5</field></shadow><block type="text" id="Z=GoME(]`MFYwNq8~mi-"><field name="TEXT">Good</field></block></value></block></value></block></next></block></statement></block></xml>
